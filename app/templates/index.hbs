@@ -1,1 +1,6 @@
-{{outlet}}
+<!-- {{main-section articles=model}} -->
+<h1>{{model.firstObject.author}}</h1>
+
+{{#each model as |article|}}
+  {{article-tile article=article}}
+{{/each}}

@@ -12,6 +12,14 @@ module.exports = function(environment) {
         // e.g. 'with-controller': true
       }
     },
+    // contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
+    firebase: {
+      apiKey: "AIzaSyBpe8qv338b4xt2InTcCCQxWAroJow1cjA",
+      authDomain: "clickbait-a99a2.firebaseapp.com",
+      databaseURL: "https://clickbait-a99a2.firebaseio.com",
+      storageBucket: "clickbait-a99a2.appspot.com",
+    },
+
 
     APP: {
       // Here you can pass flags/options to your application instance
