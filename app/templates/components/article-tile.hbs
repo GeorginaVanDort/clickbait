@@ -1,6 +1,8 @@
-<div>
+<div class="articleTile">
+  {{#link-to 'article' article.id}}
   <img src="{{article.imgUrl}}" alt="" />
   <h4 class=articleShortTitle>{{article.shortTitle}}</h4>
   <h4>{{article.author}}</h4>
   <hr>
+  {{/link-to}}
 </div>
